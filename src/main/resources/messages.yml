@@ -1,0 +1,6 @@
+# prefix
+prefix: "§c[PSYNC] "
+
+# message config
+loadingData: "§eLoading your data... please wait."
+loadingDone: "§aSuccessfully loaded your data."
