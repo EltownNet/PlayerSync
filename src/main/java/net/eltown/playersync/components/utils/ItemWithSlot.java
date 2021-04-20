@@ -1,4 +1,4 @@
-package net.llamadevelopment.PlayerSync.components.utils;
+package net.eltown.playersync.components.utils;
 
 import cn.nukkit.item.Item;
 import lombok.Getter;

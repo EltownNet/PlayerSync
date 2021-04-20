@@ -1,6 +1,6 @@
 # prefix
-prefix: "§c[PSYNC] "
+prefix: "§c[API] "
 
 # message config
-loadingData: "§eLoading your data... please wait."
-loadingDone: "§aSuccessfully loaded your data."
+loadingData: "§eLade Daten..."
+loadingDone: "§aDeine Daten wurden erfolgreich geladen!"

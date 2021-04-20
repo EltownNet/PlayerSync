@@ -1,10 +1,10 @@
-package net.llamadevelopment.PlayerSync.components.listener;
+package net.eltown.playersync.components.listener;
 
 import cn.nukkit.event.EventHandler;
 import cn.nukkit.event.Listener;
 import cn.nukkit.event.player.*;
 import lombok.RequiredArgsConstructor;
-import net.llamadevelopment.PlayerSync.PlayerSync;
+import net.eltown.playersync.PlayerSync;
 
 @RequiredArgsConstructor
 public class PlayerListener implements Listener {

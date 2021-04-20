@@ -1,6 +1,6 @@
 name: PlayerSync
 author: LlamaDevelopment
 website: lldv.net/discord
-version: 1.2.0
-main: net.llamadevelopment.PlayerSync.PlayerSync
+version: 1.0.0
+main: net.eltown.playersync.PlayerSync
 api: 1.0.0

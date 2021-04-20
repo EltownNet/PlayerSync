@@ -1,7 +1,7 @@
-package net.llamadevelopment.PlayerSync.components.utils;
+package net.eltown.playersync.components.utils;
 
 import cn.nukkit.utils.Config;
-import net.llamadevelopment.PlayerSync.PlayerSync;
+import net.eltown.playersync.PlayerSync;
 
 import java.util.HashMap;
 import java.util.Map;

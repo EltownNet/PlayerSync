@@ -1,4 +1,4 @@
-package net.llamadevelopment.PlayerSync.components.utils;
+package net.eltown.playersync.components.utils;
 
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;
