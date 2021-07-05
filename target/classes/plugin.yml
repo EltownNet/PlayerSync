@@ -1,0 +1,6 @@
+name: PlayerSync
+author: Justin
+description: Synchronisation der Spielerdaten über alle Server.
+version: 1.0.0-SNAPSHOT
+main: net.eltown.playersync.PlayerSync
+api: 1.0.0

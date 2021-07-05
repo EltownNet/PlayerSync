@@ -1,6 +1,6 @@
 # prefix
-prefix: "§c[API] "
+prefix: "§8» §fSync §8| §7"
 
 # message config
-loadingData: "§eLade Daten..."
-loadingDone: "§aDeine Daten wurden erfolgreich geladen!"
+loadingData: "§7Lade Daten..."
+loadingDone: "§aDaten geladen."

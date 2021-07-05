@@ -1,0 +1,15 @@
+net\eltown\playersync\PlayerSync.class
+net\eltown\playersync\components\data\MessageCall.class
+net\eltown\playersync\components\tinyrabbit\TinyRabbitListener.class
+net\eltown\playersync\components\utils\ItemWithSlot.class
+net\eltown\playersync\components\provider\Provider$1.class
+net\eltown\playersync\components\tinyrabbit\TinyRabbit.class
+net\eltown\playersync\components\tinyrabbit\data\Delivery.class
+net\eltown\playersync\components\listener\PlayerListener.class
+net\eltown\playersync\components\utils\Manager.class
+net\eltown\playersync\components\utils\SyncPlayer.class
+net\eltown\playersync\components\data\CallData.class
+net\eltown\playersync\components\provider\Provider.class
+net\eltown\playersync\components\utils\Language.class
+net\eltown\playersync\components\tinyrabbit\data\Request.class
+net\eltown\playersync\components\utils\ItemAPI.class
