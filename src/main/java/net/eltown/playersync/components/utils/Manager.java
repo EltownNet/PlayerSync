@@ -35,8 +35,12 @@ public class Manager {
         if (player.getEnderChestInventory().getContents().size() > 0)
             ec = this.plugin.getItemAPI().invToString(player.getEnderChestInventory());
         if (player.getInventory().getContents().size() > 0) inv = this.plugin.getItemAPI().invToString(player.getInventory());
+        final ArrayList<String> effects = new ArrayList<>();
+        player.getEffects().forEach((id, effect) -> {
+            effects.add(effect.getId() + ":" + effect.getAmplifier() + ":" + effect.getDuration());
+        });
 
-        this.plugin.getProvider().savePlayer(player.getName(), inv, ec, player.getHealth() + "", player.getFoodData().getLevel(), player.getExperienceLevel(), player.getExperience());
+        this.plugin.getProvider().savePlayer(player.getName(), inv, ec, player.getHealth() + "", player.getFoodData().getLevel(), player.getExperienceLevel(), player.getExperience(), player.getGamemode(), effects);
     }
 
     public void loadPlayer(Player player) {
@@ -45,6 +49,7 @@ public class Manager {
         player.getInventory().clearAll();
         player.getEnderChestInventory().clearAll();
         player.setExperience(0, 0);
+        player.getEffects().clear();
 
         player.sendMessage(Language.get("loadingData"));
         playSound(player, Sound.RANDOM_ORB);
@@ -55,6 +60,8 @@ public class Manager {
             player.setHealth(syncPlayer.getHealth());
             player.getFoodData().setLevel(syncPlayer.getFood());
             player.setExperience(syncPlayer.getExp(), syncPlayer.getLevel());
+            player.setGamemode(syncPlayer.getGamemode());
+            syncPlayer.getEffects().forEach(player::addEffect);
 
             loaded.add(player.getName());
             player.sendMessage(Language.get("loadingDone"));
